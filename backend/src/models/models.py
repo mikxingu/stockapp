@@ -10,4 +10,3 @@ class Stock(Base):
     ticker = Column(String, unique=True, index=True)
     cnpj = Column(String)
     price_2021 = Column(Numeric(10,2))
-    price_2022 = Column(Numeric(10,2))
