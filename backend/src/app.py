@@ -1,7 +1,7 @@
 from typing_extensions import final
 from pydantic import BaseModel
 from models import models
-from routes import stocks
+from routers import stocks
 from fastapi import FastAPI, Request, Depends
 from fastapi.templating import Jinja2Templates
 from services.SQLiteConnector import SessionLocal, engine
